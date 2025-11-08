@@ -1,0 +1,16 @@
+[flake8]
+max-line-length = 88
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    env,
+    .mypy_cache,
+    .pytest_cache,
+    migrations,
+    build,
+    dist
+
+extend-ignore = 
+    T499,
